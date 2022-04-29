@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PasteleriaVale</string>
+    <string name="txt_title_login">"Iniciar Sesión"</string>
+    <string name="txt_guardar">"Iniciar"</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="#5E72EB">
+
+    <TextView
+        android:id="@+id/Titulo"
+        style="@style/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amaranth"
+        android:gravity="center"
+        android:text="Inicio de Sesión" />
+
+    <ImageView
+        android:id="@+id/Image1"
+        android:layout_width="361dp"
+        android:layout_height="83dp"
+        android:layout_below="@+id/Titulo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="42dp"
+        android:src="@mipmap/v2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/Image1">
+
+
+        <EditText
+            android:id="@+id/Correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Correo electronico"
+            style="@style/form_input"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_baseline_account_box_24"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/Contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Contraseña"
+            style="@style/form_input"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_lock_24"
+            android:inputType="textPassword"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+            android:layout_margin="10dp"
+            android:text="ENTRAR"
+            android:textSize="20dp"/>
+
+        <TextView
+            style="bold"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="¿Olvidaste tu contraseña?"
+            android:textColor="#FF1744"
+            android:textSize="20dp" />
+
+
+
+        <TextView
+            android:id="@+id/textBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="O REGISTRARSE CON:"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/image2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/facebook" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="60dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/google" />
+</LinearLayout>
+
+
+</RelativeLayout>

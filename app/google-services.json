@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "914576209300",
+    "project_id": "pasteleria-vale",
+    "storage_bucket": "pasteleria-vale.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914576209300:android:7bc033346d296b1bc24b81",
+        "android_client_info": {
+          "package_name": "com.example.pasteleriavale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914576209300-mqvvo3f9cgln5d4a8tqdcngha7vdpg8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5GEzSDU7PJQ3c8bx2Fw6LJ2owqpLhtVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914576209300-mqvvo3f9cgln5d4a8tqdcngha7vdpg8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
